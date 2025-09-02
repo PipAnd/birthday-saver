@@ -5,6 +5,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
 import com.example.birthdaysaver.data.db.AppDatabase
+import com.example.birthdaysaver.data.db.GiftGoalDao
 import com.example.birthdaysaver.data.model.GiftGoal
 import kotlinx.coroutines.launch
 
