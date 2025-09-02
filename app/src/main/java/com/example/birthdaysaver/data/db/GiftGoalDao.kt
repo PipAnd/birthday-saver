@@ -6,7 +6,7 @@ import com.example.birthdaysaver.data.model.GiftGoal
 
 @Dao
 interface GiftGoalDao {
-    @Query("SELECT * FROM gift_goals")
+    @Query("SELECT * FROM gift_goals ORDER BY id DESC")
     fun getAllGoals(): LiveData<List<GiftGoal>>
 
     @Insert
