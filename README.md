@@ -16,13 +16,10 @@
 - MVVM Architecture
 - LiveData
 - ViewBinding
+- RecyclerView
 
 ## 📥 Установка
 
-1. Клонируй репозиторий
-2. Открой в Android Studio
-3. Запусти проект
-
-## 📄 Лицензия
-
-MIT License
+1. Клонируй репозиторий:
+   ```bash
+   git clone https://github.com/ваш_логин/birthday-saver.git
